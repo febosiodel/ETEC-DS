@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Agbalumo";
+    src: url(/FelipeBosio_Ag14_DS/fonts/Agbalumo-Regular.ttf);
+  }
+
+.banner {
+    position: relative;
+  }
+
+  .banner h1 {
+    color: rgb(255, 255, 255);
+    font-family: "Agbalumo";
+    font-size: 100px;
+    letter-spacing: 38px;
+  } 
+  
+  .banner-text {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+  }
+  
+  .img-cover {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: calc(100% + 20px);
+    height: 265px;
+    filter: brightness(70%) blur(2px);
+    margin: -10px -10px;
+  }
+
+body {
+    background-color: rgb(109, 253, 145);
+}
+
+.principal {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+}
+
+.coluna1, .coluna2, .coluna3, .coluna4, .coluna5 {
+    align-items: center;
+    margin: 1%;
+    font-family: cursive;
+}
+
+.fonte a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    font-family: "Univia Pro", sans-serif;
+    transition: color 0.3s;
+  }
+  
+  .fonte a:hover {
+    color: white;
+  }
+
+h1, h2 {
+    text-align: center;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 95%;
+    gap: 15px;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  .desc-atracao {
+    text-align: center;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    line-height: 20px;
+    font-family: "Univia Pro", sans-serif;
+    font-size: 14px;
+  }
+  
+  .columns h2 {
+    text-align: left;
+    color: rgb(51, 52, 53);
+    font-family: "Univia Pro", sans-serif;
+    border-radius: 1px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-bottom: 2px solid rgb(87, 88, 90);
+  }
+
+  .columns img {
+    width: 100%;
+    height: 200px;
+    transition: transform 0.5s ease;
+    opacity: 1;
+    padding-bottom: 10px;
+  }
+  
+  .coluna1,
+  .coluna2,
+  .coluna3,
+  .coluna4,
+  .coluna5,
+  .coluna6 {
+    margin-top: 10px;
+  }
+
+  .fonte a {
+    text-decoration: none;
+    color: rgb(216, 63, 63);
+    align-items: center;
+    font-family: "Univia Pro", sans-serif;
+    transition: color 0.3s;
+  }
+  
+  .fonte a:hover {
+    color: rgb(57, 87, 2);
+  }
+  
+  .fonte {
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+  }
